@@ -8,14 +8,14 @@ from typing import Dict, Any, Optional
 # Configuration Odoo - Instance d'Ameni
 ODOO_CONFIG = {
     # URL de votre instance Odoo
-    "url": "https://amenis-star.odoo.com",
+    "url": "",
     
     # Base de données Odoo (sera détecté automatiquement)
-    "database": "amenis-star",
+    "database": "",
     
     # Identifiants de connexion (À REMPLIR)
-    "username": "amaniabdelli222@gmail.com",  # Remplacez par votre email Odoo
-    "password": "dalila0904",      # Remplacez par votre mot de passe
+    "username": "",  # Remplacez par votre email Odoo
+    "password": "",      # Remplacez par votre mot de passe
     
     # Version d'API (généralement 2)
     "api_version": 2
