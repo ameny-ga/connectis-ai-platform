@@ -1,0 +1,104 @@
+ {
+  "projets": [
+    {
+      "id": "P001",
+      "nom": "Refonte site e-commerce",
+      "description": "Migration complète du site vers une nouvelle plateforme",
+      "chef_projet": "E002",
+      "client_id": "C001",
+      "statut": "En cours",
+      "priorite": "Haute",
+      "budget": 120000,
+      "budget_consomme": 75000,
+      "date_debut": "2025-06-01",
+      "date_fin_prevue": "2025-10-31",
+      "progression": 65,
+      "equipe": ["E001", "E002", "E004"]
+    },
+    {
+      "id": "P002",
+      "nom": "Application mobile CRM",
+      "description": "Développement d'une app mobile pour accès CRM terrain",
+      "chef_projet": "E002",
+      "client_id": "C002",
+      "statut": "Planifié",
+      "priorite": "Moyenne",
+      "budget": 80000,
+      "budget_consomme": 5000,
+      "date_debut": "2025-09-01",
+      "date_fin_prevue": "2025-12-15",
+      "progression": 5,
+      "equipe": ["E001", "E003"]
+    },
+    {
+      "id": "P003",
+      "nom": "Audit sécurité IT",
+      "description": "Audit complet de la sécurité des systèmes informatiques",
+      "chef_projet": "E003",
+      "client_id": null,
+      "statut": "Terminé",
+      "priorite": "Critique",
+      "budget": 25000,
+      "budget_consomme": 24500,
+      "date_debut": "2025-05-01",
+      "date_fin_prevue": "2025-07-31",
+      "progression": 100,
+      "equipe": ["E003", "E001"]
+    }
+  ],
+  "taches": [
+    {
+      "id": "T001",
+      "projet_id": "P001",
+      "titre": "Analyse des besoins",
+      "description": "Recueil et analyse des besoins client",
+      "assignee": "E002",
+      "statut": "Terminé",
+      "priorite": "Haute",
+      "estimation": 40,
+      "temps_passe": 42,
+      "date_creation": "2025-06-01",
+      "date_echeance": "2025-06-15",
+      "date_completion": "2025-06-16"
+    },
+    {
+      "id": "T002",
+      "projet_id": "P001",
+      "titre": "Développement frontend",
+      "description": "Développement des interfaces utilisateur",
+      "assignee": "E001",
+      "statut": "En cours",
+      "priorite": "Haute",
+      "estimation": 120,
+      "temps_passe": 80,
+      "date_creation": "2025-06-16",
+      "date_echeance": "2025-09-15",
+      "date_completion": null
+    },
+    {
+      "id": "T003",
+      "projet_id": "P001",
+      "titre": "Tests d'intégration",
+      "description": "Tests complets de l'application",
+      "assignee": "E004",
+      "statut": "À faire",
+      "priorite": "Moyenne",
+      "estimation": 60,
+      "temps_passe": 0,
+      "date_creation": "2025-06-01",
+      "date_echeance": "2025-10-15",
+      "date_completion": null
+    }
+  ],
+  "jalons": [
+    {
+      "id": "J001",
+      "projet_id": "P001",
+      "nom": "Livraison version beta",
+      "description": "Première version de test à déployer",
+      "date_prevue": "2025-09-30",
+      "statut": "Planifié",
+      "criticite": "Haute"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "employes": [
+    {
+      "id": "E001",
+      "nom": "Dubois",
+      "prenom": "Alain",
+      "email": "a.dubois@entreprise.fr",
+      "poste": "Développeur Senior",
+      "departement": "IT",
+      "manager": "E003",
+      "date_embauche": "2020-03-15",
+      "salaire": 55000,
+      "statut": "Actif",
+      "competences": ["Python", "JavaScript", "React", "Docker"]
+    },
+    {
+      "id": "E002",
+      "nom": "Bernard",
+      "prenom": "Sophie",
+      "email": "s.bernard@entreprise.fr",
+      "poste": "Chef de projet",
+      "departement": "IT",
+      "manager": "E003",
+      "date_embauche": "2019-06-10",
+      "salaire": 65000,
+      "statut": "Actif",
+      "competences": ["Gestion de projet", "Agile", "Scrum", "Leadership"]
+    },
+    {
+      "id": "E003",
+      "nom": "Rousseau",
+      "prenom": "Michel",
+      "email": "m.rousseau@entreprise.fr",
+      "poste": "Directeur IT",
+      "departement": "IT",
+      "manager": null,
+      "date_embauche": "2018-01-20",
+      "salaire": 85000,
+      "statut": "Actif",
+      "competences": ["Management", "Stratégie IT", "Architecture", "Budget"]
+    },
+    {
+      "id": "E004",
+      "nom": "Moreau",
+      "prenom": "Claire",
+      "email": "c.moreau@entreprise.fr",
+      "poste": "Analyste RH",
+      "departement": "RH",
+      "manager": "E005",
+      "date_embauche": "2021-09-01",
+      "salaire": 45000,
+      "statut": "Actif",
+      "competences": ["Recrutement", "Formation", "SIRH", "Droit social"]
+    },
+    {
+      "id": "E005",
+      "nom": "Leroy",
+      "prenom": "David",
+      "email": "d.leroy@entreprise.fr",
+      "poste": "Directeur RH",
+      "departement": "RH",
+      "manager": null,
+      "date_embauche": "2017-04-12",
+      "salaire": 75000,
+      "statut": "Actif",
+      "competences": ["Management RH", "Stratégie RH", "Relations sociales", "GPEC"]
+    }
+  ],
+  "conges": [
+    {
+      "id": "CG001",
+      "employe_id": "E001",
+      "type": "Congés payés",
+      "date_debut": "2025-08-25",
+      "date_fin": "2025-09-05",
+      "nb_jours": 10,
+      "statut": "Approuvé"
+    },
+    {
+      "id": "CG002",
+      "employe_id": "E002",
+      "type": "RTT",
+      "date_debut": "2025-08-22",
+      "date_fin": "2025-08-22",
+      "nb_jours": 1,
+      "statut": "En attente"
+    }
+  ],
+  "evaluations": [
+    {
+      "id": "EV001",
+      "employe_id": "E001",
+      "evaluateur_id": "E002",
+      "periode": "2024",
+      "note_globale": 4.2,
+      "objectifs_atteints": 85,
+      "commentaires": "Excellent travail technique, pourrait améliorer la communication",
+      "date_evaluation": "2025-01-15"
+    }
+  ]
+}

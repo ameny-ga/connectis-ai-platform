@@ -1,0 +1,12 @@
+# Core dependencies
+langchain>=0.1.0
+langgraph>=0.0.26
+streamlit>=1.29.0
+pydantic>=2.5.0
+
+# Utilities
+python-dotenv>=1.0.0
+typing-extensions>=4.8.0
+
+# Optional: Use pre-compiled packages
+--find-links https://download.pytorch.org/whl/torch_stable.html
