@@ -1,21 +1,30 @@
 """
-Configuration pour l'intégration Odoo CRM
+Configuration Odoo pour CONNECT'IS
+
+SÉCURITÉ : Ce fichier ne contient PAS de données sensibles.
+Les vraies identifiants sont stockés dans le fichier .env (non versionné).
+
+Pour configurer votre connexion Odoo, créez un fichier .env avec :
+ODOO_URL=https://votre-instance.odoo.com
+ODOO_DATABASE=votre-base
+ODOO_USERNAME=votre-email@domain.com
+ODOO_PASSWORD=votre-mot-de-passe
 """
 
 import os
 from typing import Dict, Any, Optional
 
-# Configuration Odoo - Instance d'Ameni
+# Configuration Odoo - Chargée depuis variables d'environnement (.env)
 ODOO_CONFIG = {
     # URL de votre instance Odoo
-    "url": "https://amenis-star.odoo.com",
+    "url": os.getenv("ODOO_URL", "https://your-instance.odoo.com"),
     
-    # Base de données Odoo (sera détecté automatiquement)
-    "database": "amenis-star",
+    # Base de données Odoo
+    "database": os.getenv("ODOO_DATABASE", "your-database"),
     
-    # Identifiants de connexion (À REMPLIR)
-    "username": "amaniabdelli222@gmail.com",  # Remplacez par votre email Odoo
-    "password": "dalila0904",      # Remplacez par votre mot de passe
+    # Identifiants de connexion (chargés depuis .env)
+    "username": os.getenv("ODOO_USERNAME", "your-email@domain.com"),
+    "password": os.getenv("ODOO_PASSWORD", "your-password"),
     
     # Version d'API (généralement 2)
     "api_version": 2
