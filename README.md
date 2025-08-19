@@ -1,4 +1,4 @@
-# 🤖 LangGraph Multi-Agents - Projet Académique
+# 🤖 LangGraph Multi-Agents 
 
 ## 📋 Description
 Système de simulation d'unification de systèmes d'information utilisant **LangGraph** pour orchestrer des agents intelligents. Ce projet démontre l'intégration de différents systèmes (CRM, RH, gestion de projets) via une interface en langage naturel.
